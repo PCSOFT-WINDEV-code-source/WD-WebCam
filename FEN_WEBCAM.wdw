@@ -1,0 +1,723 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_WEBCAM
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_WEBCAM
+ identifier : 0x2dcce46c4fbe93d6
+ internal_properties : CAAAAAgAAADei5ZyF6FtEHe0wPqvTqcRoyfQ1/uxX6im880zpzWOODe/+vWK3adjSCB5EynhBbMHPTXRsFze7yjT9OYEY/GbQxLxRV1LG5vwRREc7teCG1tKJsS+rSnM2ht72lfioDyZ/R7XDR+X4olCWW3Rc8kGNn254MoaFt59W0oBxSDmSxcnDHE2UxuIvj1yJk+VnDQB8hw3dsq7S9w6TsO92Klsk5DEqIV1H8Wk3yBAKSHhpZVGSG+jEtWmZvZ+e+o0/eTsW4BHWZqO91cphVStinpU+ChfH6Kh70bqLre8pqHeQDeXYFQATq3Jz/efjC/63VzMx2CMG5RGDiIQLGlkLyfcJMXQxBxJY1rjqErhBIKvjXLIlFY8l40aDZaxvWos9HPfzH/ogkv4DNBJshRgaSHAmWVkh/dVNTanxuysnt5PCr1QDTFQjAeYvyVYAyD3aUFELku5zRTe6rUH8FJnHS9nC+cDgEi0sPHOVLlr2nCRD/YwCLrHKRV0SmVQatMKOCNPg8HdklSglnb3mc6xxtpAfuqYbZz1Pi3A5wl2lIsCPJVr9ZTHTKR77dRd3F4yeBjBhX6XMhnNwejpSyIjxDUNCJ3z5qGU2oO0qo4RLFV8ZKkFKw+YrpYr7Z+HsGDEJpgUqQIWufUukW62g0UYqu7oEAc0wc0bXMKHmBsGON+Qpy7wkPOax1Gbu5Gu/kjOmNn6cAzJVrQWIWivtoW4ZztOYpUAoNV+EtOsjOTpzgpOotrKQrwdo8Y+pNOJghWCNw0xv2bfxoUFY/b/j07z7jvSnHLM4S0y8wjRbBT26cbEjJi8lH4s4enqSMh16PMxhD72AVjnJND1G1XoC686MyaeFppL3b4JGhDtHgKWp2UWzn44KwfsUro1PKTSwhmGvym2Aa1QBQriWRYlWlqXhvxUnhBkLBqQInmk+tYm9IXHPyHsnJF0Cyr51l8MhxaK6Dl3NIwMZn2m22bRXQ==
+ properties :
+  x : 120
+  y : 50
+  width : 432
+  height : 554
+  widthClient : 430
+  heightClient : 522
+ controls :
+  -
+    name : CAM_VIDEO
+    identifier : 0x2dcce46c4fbf93d6
+    internal_properties : CAAAAAgAAABY4z7UaR9/eymDlJAl17FbfMsld9eSG+q7vaRlFzDMFzl9ZBH6nxmgCg8y8dNKhA2h19Z5Ik0HBVqKRMpBm/cyM+9ZzFtXTy9WEDo5Fn4yHgrZzSqHVxQKv/6KAjGNiSyqom3hhTLI39jim5/KZz3ZURyj1d8SlTKPeEsWew7nceW7XSul6Ir1gGannOJ1Z/3D1hqdFrNmsNxCDHUnTnl7aQxnAvJxHWEOr1bqBdAb2URZ8ZZUOb9m4RLuSvZ4NUtQekGemDNeG69lJNUwRjsgorO0z9gGxJoJind/A/ll36Ha+EvZXi9l8kPgdFEh5i3IW4rLfDKN+upvbyBjFhRhTf0VXMjiQjwANc0=
+    properties :
+     x : 6
+     y : 90
+     width : 418
+     height : 240
+    type : 24
+    code_elements :
+     type_code : 37
+     p_codes :
+      -
+        type : 237
+        enabled : false
+  -
+    name : BTN_CAPTURER
+    identifier : 0x2dcce46c4fc093d6
+    internal_properties : CAAAAAgAAADj2MSW7Rs+nxi7fr/5PXKHoas08ZRTTApmBu9tJ0waYlbg48Xco/5feuL3fJRccw0WqFhkb90HNwKdFK1t0eIt/gfb6COtC1GoylpK/3Lvvk5426SnCmkO8U4Ldo6ZzvWMeuamUazJwNtwRKBv4gRIU4apLlUqH+oh0Ey9pUtfCf90veo9PKCs+2LUQr3O3TqTbiYKQZ8XlrwmpfaeR5AYHfvGZw5kj+5QtHkR4YtBqMvG4p4apIVLQLj0sZ5QidvrwB86OEQBjLLFFhXjiKPTye2+q6MRMx3qSDys3FpQBgVHaRFpDKboT6UWORaR8DIj2VCwfHu/ifLRZIJ083bHKhPbdrxnS8BDGmQ3hkA6yQlC9zuJMTp6TSo3j8gDoStN7ohdKEU0yo9Jmq1H5kjewwf6tadFvTYMlBFX7gY2rAM9IZ76rcZ4JUPAxnAggZSGxI2s+NYR2UuWo6Pw6Vi/9RA6CeA1GsSyRWXNLr3VU8oV9k3rhtLoklUx/amm3Z4c2rnTHeXc3c6a7rFmHibEY5TD+IWnmsM8013isy07bK2JpuRa374zMnbr7d2zB44T+m9gH5PfjQ7VNFWls+OH/fJb2wjMrzu1re228I0BjfoZPww1pe7v4h+jeZhHFP5XPsD9g3PxL1wvR0tilvrc7iXNWobKilkrJkJqqGG8oZSBhzpJFZLmERONDJ9tHL+yvrC1vCkVxZPodWg2Jg/ZDPiRHfalg9+Ms9D5IZ7F8HunZFgeeDVyjySCxMh8fCLNyLXWAD++53a/GBGr0e9gxEpfErVAdtUh5unAYAZ/6EWtO1DE2SiKYy+as98hegwdZAuqeefa5xZxWqfuCI0ks5oh5WDXmpK+uF8eingk/XhM7Bwhi2ZtZU1jQTgIaijZvx/jK0qBEpFIFF8FH28/jM8Y2XdeV8uqzBojqwNqDyEEAp+CO76Nn4usndbOYP5bgB85iLDwTtU3NRGKwp3PvvdlWG1aRRDfcGmRmh8+2qA5v2lnk4dufQmevKmBp+WgMG0cC8yKtkmXcYfrC30xqSIl9ALM97Zq8DeOyHg5kZw4C2g9fXGeEURcI7qupSIiee6Z
+    properties :
+     x : 6
+     y : 338
+     width : 100
+     height : 32
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAABMlet5dcUCeVY0GFy2J92SpQKU3rYas3dF8g0rnxvZJQLsgxmhI0Uby5xSUYfPnk0JuaFKAraaRHw74FC+z07UOI+xc3wkoICnUoZ6pqLzHgL2W5CreIBcGiVyppK+yybtk60N8WTig/jY5sfxOqUtxmvAcfu5IyJ72fPFcUtwed7ZgsWmF+exF1OnnLfan4odXiiUyb3iNCEuqGeJUR8VIuRqCXYTGybc
+        code : |1-
+         SI gbCaptureEnCours = Vrai ALORS
+         	Info("Un enregistrement est en cours")
+         	RETOUR
+         FIN
+         
+         // Sauvegarde de la vidéo retransmise dans le champ Vidéo 
+         si pas VidéoCapture(CAM_VIDEO,CompleteRep(fRepExe())+"Temp.bmp",viCaptureImage) alors
+         	erreur(ErreurInfo())
+         	retour
+         FIN
+         
+         // Récupération du dernier répertoire utilisé
+         Si gsRepDernierCapture~="" alors
+         	gsRepDernierCapture = fRepEnCours()
+         FIN
+         
+         // Renomme le fichier AVI
+         sNomFichier est une chaine = fSélecteur(gsRepDernierCapture, "", "Enregistrer sous ...", "Image (*.bmp)"+TAB+"*.bmp"+RC+"Tous fichiers (*.*)"+TAB+"*.*", "bmp", fSelCrée+fSelExiste)
+         si sNomFichier~="" alors
+         	// Suppression du fichier temporaire
+         	fsupprime(CompleteRep(fRepExe())+"Temp.bmp")
+         sinon
+         	// Renommage et déplacement du fichier généré
+         	Si sNomFichier~=CompleteRep(fRepExe())+"Temp.bmp" alors
+         		// Le fichier est déjà le bon
+         	SINON
+         		// Si un fichier du même nom que le fichier destination existe, on le supprime
+         		Si fFichierExiste(sNomFichier) alors fSupprime(sNomFichier)
+         		// On renomme le fichier temporaire dans le nom sélectionné
+         		fRenomme(CompleteRep(fRepExe())+"Temp.bmp",sNomFichier)	
+         	FIN
+         	
+         	// Mémorisation du répertoire
+         	gsRepDernierCapture = fExtraitChemin(sNomFichier,fDisque+fRépertoire)
+         FIN
+         
+         CAS EXCEPTION:
+         	sMsgErr est une chaîne = ErreurInfo()
+         	SI sMsgErr~="" ALORS sMsgErr="La WebCam ne répond pas."+RC+"Vérifiez qu'elle est correctement branchée et que son driver est bien installé."
+         	Erreur(sMsgErr)
+         	RepriseSaisie()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_FILMER
+    identifier : 0x2dcce46c4fc193d6
+    internal_properties : CAAAAAgAAACloZYP1n6F/51CVgKsxAgQ2Jur++GDvbEjUZDkzj5Np+n7QKiC7vKjCIjjkueARep1w0y8Lcp8ZIY+s8B67xUkkYj4FJog9QB3lW8mUZ44UPzYScd2PaUiMbA1RAz3mWdS82DVekGMotFATXf5OVMJhdDbe4VdB2V4kBENo6kWQdH5B36CuocLbuWo19ZEysscUD8+wubSSvwP8kC2sAgDD4PqJ0ImcZSP0bq0HJ5EhlsWhPSG/8XMLiY4YZ98AnsqPqN+YWA/vOY80Z4KL4pa/bIkcGsXK1Fuk9UchCQ8hYYibrWLBTVjN4Z53zLn/Kw8vXXyTiZCy/SFIkjaoHYxrNVPD5QPGUAphX7+260OfMf1BXUXFm6L79iejo2EP/VxM3l8dUmaB4Mrt0ollSsLNILL1xficLuIAMULLGqCgnQEv6/jeWtoKdKLRtY+63ECh1Z7rpX2FXAgQ+1wv/8dA7SaGNX7gFnaGGphukxsFq77t2mv/2gSxgzIQmfkJ3HV21F3er0AFew8r+D1letHN6ChxeIYzK017fEJN1KtIZR2Ksd5MbZ83SRiZ9Nm4LQmUx5sSaC2bGq/sNw9e8tvSzGofB770/Wij2nUg0BVsfC04cvmRd93vHQD2PwxmcJVxBX4lbsQE/DyXXRsxBlyEL2sZQCrmB7ubhXBBT8NDLbdNFA4h8qMTwJL53raDluAuBNmTk5ybinp/Cdi3xNvsTEJQ0NZv9I82jDFMl/sutxsK/Plz8UxDMN1OjUIBh7032BD9j9ZhzIEyxOVaLddiP+2m/vgWgLaQbLS55Ep8399/1FfDxBIY4lNNCt2scsLualShiCEK+8BLNUgTZkMoSf0EJtXAUdYVrCOwh6bh+lZawDBemyoWAOAKQd1+CHyezQTYpCCED1bZI0kasXyqKfrUKRIJutZj3YNsUGXETJ0PEHa/7l6hsGXDmXTDZyHc3BIWnrStRKO9WbdOwZrKMjGUYz10RZMkn+0hWOqiP1eHLvrFVz9O9D/7cHHvLhWuaxqxqMTg1xzInq0X3KvakTQve6Fd0LyY4JNK4F+n4L5+sqsxaHeD8gxxVhbOW6sdRR8cUtgt9IcvwxP3l8NgGbE+JCTuQ1NkvWe/VOfKjaYNwnuzmYOvwjB92/dPkXELfEFb2bJR20=
+    properties :
+     x : 113
+     y : 338
+     width : 100
+     height : 32
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        internal_properties : CAAAAAgAAABAU28eV1KfHaLA4OFOHdQSY04t5XxifGEnOFKYpW7tgogawIfpWnTaaWBuZrtXGi1Em94meU8F5WGltx5rSTVsLrHvRPKRxz9hXbHp1ZB7Pbzhh5Y+ovE2UrwGX6IyT7TBFl3GquLjjfAzlJCj4gU54KY4kEKHExSpUutjO6pIgPy+Qr8YVrjlG4NINlB8OAixgcNosfKWKMRx12VWeDfE
+        code : |1-
+         
+         si pas gbCaptureEnCours alors
+         	// Sauvegarde de la vidéo retransmise dans le champ Vidéo 
+         	si pas VidéoCapture(CAM_VIDEO, "Temp.AVI",viCaptureVidéo) alors erreur(ErreurInfo())
+         	moimeme..libelle="Arrêter"
+         	
+         	gbCaptureEnCours=vrai
+         sinon
+         	// Arrête la capture
+         	si pas VidéoArrête(CAM_VIDEO, viArrêteCapture) alors erreur(erreurinfo())
+         	// Renomme le fichier AVI
+         	sNomFichier est une chaine = fSélecteur(fRepExe(), "", "Enregistrer sous ...", "Animation (*.avi)"+TAB+"*.avi"+RC+"Tous fichiers (*.*)"+TAB+"*.*", "avi", fSelCrée+fSelExiste)
+         	si sNomFichier~="" alors
+         		// Suppression du fichier temporaire
+         		fsupprime("Temp.AVI")
+         	sinon
+         		// Est-ce qu'un fichier porte déjà ce nom
+         		SI fFichierExiste(sNomFichier)=Vrai alors
+         			// On supprime l'ancien fichier
+         			fSupprime(sNomFichier)
+         		FIN
+         		
+         		// Renommage et déplacement du fichier généré
+         		SI fRenomme("Temp.AVI",sNomFichier)= Faux alors
+         			Erreur("Une erreur est survenue pendant l'enregistrement de la vidéo",ErreurInfo())
+         		FIN
+         	FIN
+         	moimeme..libelle="Filmer"
+         	
+         	gbCaptureEnCours=faux
+         fin
+         
+         CAS EXCEPTION:
+         	sMsgErr est une chaîne = ErreurInfo()
+         	SI sMsgErr~="" ALORS sMsgErr="La WebCam ne répond pas."+RC+"Vérifiez qu'elle est correctement branchée et que son driver est bien installé."
+         	Erreur(sMsgErr)
+         	RepriseSaisie()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_LOGO
+    identifier : 0x2dcce46c4fc393d6
+    internal_properties : CAAAAAgAAABPjyG37X0x1lvBl/2rSEItj9cOX1MWo7hIBkU4kX/d+d7fJc0Z4rJOUmGAVB3/1RJk805SxAYlgob4KVWPE3c9MwfytixK/aHxcuK+0aXNdhJqJtkWniY3U8T3KgmGFhQvGgdrTVqiK5veO5bf8KEB4Q575g7ue2T7sv9CW9qbg68usjLPAjxd41nLClzomuUzptunTadLRpLEwOXVvoTN6BudxQwT+2eUdDWozo+IcTC+l/HFDPIqmY+BinsvKd248qbWeXL1ATqByA6GfYIvB2L76Zf/EBEX3L31/rOvsV9C1VTrSpbW8R0THHuJ8Ix1UXZ2UFmYOrq5Apq6sEXZFSceEzTEeDmjZJ4/e9rlMxwMJLFXNK2zWwG0uh0lifwIE9wLaNF1IfKeA0fmX0MkL6QKkUfgdiHcFoF6QWdC1X5CRS5YCE0qGznHb2R/CaZdHk2ffoXbb0UIl0xdmGHkxpVEShy+eRanCOvkEVFuluHLkADA38kINpig2V2VNZNe1vngsz0Pk7JS98FA+EEaW3jbaMjg6g8hjEZwCA3hBz1Mw3oO3nWIjDvQjyPJjBHxKeBYGJdVxt2hCmVfkJ/39z8YHFJjSC67DfbiYBI03aoH37se7AKMgmR6vaYSGbOs30VdWUefARBm4oJuvpkFzvllSWZCK72wEnsbinp7Aq9QeX+0FxJtsQCo/11DI+mV+8rv6QgjncGN2NT3aO24dJldVwqH9kLRXX74r23FdU7+scCpO8TJddnGhx0sGponeo5fLDZDybE/QXTZ/X1vWk1dJOPY3ugWkeLjqp9F531alXVlOfbGossB4V8+cajrcdeFWDDVfzkfu8FjFMP5UrK6rqTjXrmJ3+hoZFyHTgenY+PJz+eCqxb4Juo2cF4G7NSAWjTB96LzNL7xDl9tTvMJg7+IMDR/MHPMlp5Pj0y8NhpSIn8b8a/wslYye0EUgcL48VNzOvOzlbFn/rL4Xu4b/YSIX5uHow==
+    properties :
+     x : 6
+     y : 6
+     width : 80
+     height : 80
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : LIB_LIBELLE1
+    identifier : 0x2dcce46c4fc493d6
+    internal_properties : CAAAAAgAAABtkIiXXeIGG7vWvVnr7QMQsWH7VlNL5njvN5pyl5ZDRm+k4bH6S05P5uCZT6MC09PFXLnab56mJDCcdOWazUv20VRUAXJ+cDCnDqJ/xv/LgfP5mQ65rw5hx+K3YRfzTVgAHjKnHH1PTJoDj9RlLErvIKQy8nnNXM3RO0RhEcxxQq00Ak5KAzR3PhhR1Jo/AC68SNrxY5j6zYGbdtc4WIC1ZuvoVuVTfSFQKN2F3IjriUGrdR6xTHRbCRjXgJid3goudaOPQJqv0QrMRqNNjr8+vmXFNPfd7/qAcqOgI/J9O+DbpdftZcuxndOWR1ArhaBSdhHt8zrt9m4rkJtAk1mPMXUQxXz7U+oU4buo/x2OZmyAgFo3/gyHATICNKjeaA+uq1TXUAY5VuN0Bqxj6uKr96tfzC0VIpIjzkIVXhmNxNQ7neHLJqtNJN4vxJ+JfborJ0CJGDGXTXpvattNYe17h5aXsYGCKz77VfrCLvFyafkR2NvNmFcAfo7ry8ElLUcfgmbKNUfK9SuoGd+xMJ6TH7LYsDAZbg==
+    properties :
+     x : 92
+     y : 6
+     width : 332
+     height : 53
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : IMG_DIODE
+    identifier : 0x2dcce46c4fc593d6
+    internal_properties : CAAAAAgAAADgicwXtA1Fmz9Bu4kJP4RqkhdENtK0arCU2qIIccb1ADlhJZdkRPa7SqmHM+COSG7KCKgwsQ3NpFc7bm4i3mzrcZnRgkGiQTZ0hhnTyWmcal2DFEqbI2h65fgjdv7M0uGjBsOhQVD4pbo8sartO91viBLGnmqs4MPqj409duBk0BdYI5VRsVcPDIR42xfludkJIuco7oWtanBj1NcUnbWIYQ9X8KzXesOGVPRpN3nndQ6XqAUG0h93eTtlK0gY2BL1oXmjA5ecpv1IWfTTfkItP1omzNrFXD1Pv4TOq5X22ssBfet63KqfaGVUYzIrZFUwPmht4hWuBMjVCf7pGC2SMkdXMiilG0fP/7OUsJ+8vVx460KdSLD+RpAqTYmGLQfOaANM96N8y+nmOYjHO50jphkE59ZrHxi+doRdgf40I8l6j0QwbClUUWIl+eIz+nb85evI8u1Rk0A+CxdvGNoN76ebLxQMARYDxVBY1Z08dNFnhRZJnDmTsf5CIHjD6VNiSAFQ+aYVvvr9KJd4udhpyKW68cxbQO/PktwP6uddUw/LGTMtKASwHa/v7eSyAJVjRIM6DVwDlxbUIMOpRUJdfQz2s1l2G/qJvxiL2auBIu+mbVMGqM3M9SA4tf7V/nBoIOn/9Dtof42k1YyrdPhnwdESB5psSHWTXPa94TELKc4AW6Xw8L2JjuYS1pQDVnJYp2pk97sFta0sSBV/Yw/mcDKG6KraIpR4jh8FwnXsM2MSVBitXHaVMU2ad/G5JLTUu6Xt6EvtiW6Cd3RCFyJ9jCno0N6bq6IWPUG8Y5UstjzfHhdjzMFFAKWZQKSC6pN2/US3MmQZ28Bvx/l/FpHN33qej4Wi2YBjiMFdmgpzpI1Cqp9FOxckK+EvvjoUMVfcAE0kF0LYxK0HlHPbFrwQGzXUkdTeMkb7T8TSFJEJLGStraPVLKnqLXu0rQ1rwzt2GRGO/h68T9hWPLhlojR6K7jtmg==
+    properties :
+     x : 400
+     y : 60
+     width : 24
+     height : 24
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : BTN_QUITTER
+    identifier : 0x2dcce46c4fc693d6
+    internal_properties : CAAAAAgAAAC21krItX1StUVl5zNkt/hVts7P5a63wlWVzO+vPdXTYQsev5GAreqrpUwVKAU8W7tcUmJC8Rz+tHBEte/vUJ94Sd5DkO1peGm6ien6gdE8bq0q+DgnYAUKx2/aVszsLDkz9b88lfcfQ3wswjLDQNEt0ko+1CILipfcgE1iKVmcZn7qbbIzhkvStXXDLg2tp9KMUXRcJ9jtdGl2BUXzds6Ay2tLzqvXSQ3EAqtYk+qt6enmRs15zB059e8JuIhEOvuc9+eipRnkodu4BzMBgWcgPlbFubTukHDBUUvs5sfYkZoxjqo8OhNYPFiJYlPANetuXk9Ev9NATTV01Nfq8EQR7JU3i86lV3rM+4IXJ9h1Z3hvZ4MuGc2rntslQ0EV92FXhbET3zpljQ1d6cEL1AZ9XnnYYB8E13mR3Ms1eTay0Hpul+2Hsc+R5Zid9Gqojm9S+GPsMIWyRKivDnaiSX+HScIFjX6sfwqyxenrrIwIJ5TfVPo7I5igczK39bMZNptsjYtkNyPQ/VgP5T2wV9HAJhYSgEZeUdDypZa46Hb3dOlgJuMLel7JFIgWgzqE7rd8BWyVT1HDq7uB9JvOitJVwXsCsntAUBwoJO1MI691th/7f5X/SmpQkLPWY6e27nZFllDvRuKqNNZUiGncXK08I+Kz4Ou8tYZgG3ITC+VnbmtEkZ+18hV/F5PVgx7+JvkLjtI+lc/he9HWMydqRbO9hzk48HQKlYFlvwF8x545VZBGEmYwqwxivQUyESOB/MeXMHOoMayhto25pfH/IybsABkgjZVa0hAGOy9bnARBylbAshOqf9ksJi/W1lqytBzH/x2EYyg5S+u6tg08GuGC2pJ2yEU/7cn8VLZxPcNdLUSKySupy/5vWdcWW2etQCpZ/f2T8oi13eXDu9EMTDmfWSO6qcIC9OAdDO8GZV0j3jRQdHkwruqriJMPs8YqU6BTb3DbiQziZ2VkPjkoqIXKHh9Gf7qAWJfzRUFzNXY8uhdqayRWdykeYLvDQrKE4B0Co3RncC7ZieMr8VPMbpeXIV2yKKF+hszfD3U6rXHZAKkyQ2qR/km7G64kKg+R5j2XMc+TO7SQ9J4=
+    properties :
+     x : 324
+     y : 338
+     width : 100
+     height : 32
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         si gbCaptureEnCours alors
+         	si pas ouinon(non,"Arrêter la capture en cours ?") alors retour
+         FIN
+         ferme()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_VOIRPHOTO
+    identifier : 0x2dcce46c4fc793d6
+    internal_properties : CAAAAAgAAAAiRGte4flhufT7UuckjFffWpJk4ILxzmNVvs+LrSbABKFirGSevDJMr95fba/mePu+QXHUlmuEOYMwe10MZOOxlct0Yu0inzXxVPuRncSXfgPD5pl/XHTaglnCuDLOFQjeuGmj8iIbQEnVgN8wAMxPuId0XlP4zlH8SO/QsCXMwO3STARAYwCtYYvUB32rcJ6aNcI5v3d3/DhZYml6y5NNmP7/Hzn3TkD1CtK9oOLudRXDBahZ4cnJlqQf9wF734WVDHlLoOZsManRVZBrKLSFMTq8ZBzPtu5t074aaWenlFca5h7N9MND1L7vVaODEMtgdITwpNzLxZoVrDNGHHmcOgWUW5RIwSPNq6oAJg4MDz/lE/k9jKcgjNVKrSiYcI+zT+2ZszlhNE1ik8ZK9KoBlPXPwElaxhYzocMPxfeAZUsmVUSYWoHjHQwNktM9f1tgxLTX+QfE++1rAZMPw+eVRnl2N5FYRI0TsKJVxOBozvlR1mWuDj9puFfcH97xvYxVD+hzj6teDhCEyJkNSsK2o7dzW7fkxczPsQYVeIM3mw0RAL1P+S5p4y7S70nxH1z0KNKt6FvJF0PtxSj6JsGYG9iWyL4RZIJ2cJGguGtdRE6DuYfWZBytiuPeP8WO78GvUFYDCv4BJHHoBcyOK4MHg3LI9TM2OrI9NLVDapY3gPc2WOh2kWUww4F76WMRfF+Tl+vZWKW8/qGY6854WD8T1RyKBE222UkUKuSNmOloyX/otPV7YttktBxV8+KZXTeaKKMSkFKJcKE0x50hyzGbQBT4b/mseO+u0RCNM0py5tHIo+nxYJRa3hzptdeY0Tig7/4TE6dInGgzm6y+2iO/71E82TdJCdJjSUV/pI+xt53m3APpsQadGQRHvinBTcUVbDQl6K3FkvLy8aAs2LEF4dGVP9zEIoz39UlJL5QG7i/0j9hgRnmszG28FaCuOw3lWl6lx5MSmPpJpAo2jI9vjMAy8jAD3XTlWnmaoZIEFzatNhf5Qt41aQIVsqb6Z3bc0Tdpu+LQvlXMUpOTt3/7CO8Wxe3PrSeOafTj
+    properties :
+     x : 6
+     y : 385
+     width : 100
+     height : 32
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         sNomFichier est une chaine 	// Nom du fichier correspondant à la capture
+         
+         SI gbCaptureEnCours = Vrai alors
+         	Info("Un enregistrement est en cours")
+         	RETOUR
+         FIN
+         
+         // Sélection de la capture
+         sNomFichier= fSélecteurImage("", "", "Ouvrir une capture")
+         
+         // On vérifie la sélection de l'utilisateur
+         si sNomFichier="" alors retour
+         
+         CAM_VIDEO..visible=faux 			//champ de la caméra
+         GRPBTNCAMERA..visible=faux 			//boutons d'enregistrement de la caméra
+         IMG_VISUALISATION..visible=vrai 	//champ de visualisation
+         BTN_ARRETER..visible=vrai 			//bouton pour arrêter
+         GRPBTNVISU..visible=vrai			//boutons de visualisation des séquences vidéos ou captures
+         
+         // Affichage du fichier
+         IMG_VISUALISATION=sNomFichier
+         
+         
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_VOIRVIDEO
+    identifier : 0x2dcce46c4fc893d6
+    internal_properties : CAAAAAgAAACC5Abbig0nolBiZ5EcllrciXEhs8eA2GnlXPMCRD7SQTkGYeovSYuzE+ivhEEabrnV0lGuHOOdi8Vq35/c7kMHShSlNto12YRvwXa+oab7KKm7yHoG4cnMMe8OMwO58RVotmYiSk8uQz3Q8dSCgexjwzc6eAmJmwLt+/fa+M+uPXTnRws7HLRipZl6i+HhX0+uq6tDgNB1FCMAWl/ltAmBKQmKcwbLZm2BWp85GxHXXzR0Ed4+kABLluY2Y5VWwJ60GYQjgZMegoQjUmmZkzlla/2uvvj/dkfzaREi88E10dUnts5XB09R/ozxf/ff0JlPlPewgj9HQPyAYNNb1g7lJSoexcguCKEeMY1VWGwwbJF4yrbrwZTuF+Yc+FOp7A46zK2Ho9zPo0nVxk1Crg0kcKw13C3eXQv3NqRSo9hEApMnwFx2wj7BM0csEP54QZxZjSNJrCop2E7kcPqgfZGWDMkt6pqODGKJX41504pjcCgIoohgob+3HjA3/bYARo4ghE5BcZaYnSgcnP5Nmo+eCTXa5bPR4bkQItsV9k6UBdRKk9G5aDzNZUHup4Tgln2XuYclni811zHU3EpoyF0Y1kQ2/IxTjcf9v35grnWN4jaBxVfIWRHObxigQHnnu8fZ6qZWuljJV0rSiMzGk1AaBvMbqqkI+BKpsjDUAh3XcblK488yxVficb7rBeQwYBch0hPuvmTRdxO7krag1QGCPuIU7ETO9zJK0pLwQAjtP8s2sfvo23bRCA4WKlHYyCDXnLFjOUE55YiTUEEetHef8pJkKZlMBdglBNJ3OqvYMkNb7bMbwSMuejo5LgZ231+Mi30dtzfBbBrFreSt4QnOGyOblHqoOY0Wgtiq6EkzddXgKkSUdlX93zcQvMYZtYZzx4rxMJ77yPzfq7tnzwRhyWKLVh0cnR8UM/+HoSLjXVd9KlLBGR80cRHw8ZuJbUIj6xf1MoQEhwk61CVT3/bOh/yH4q5LfHbxa4jfVrsrdiCw9Vt43JR46NM1rdjQswnatEjiB5hxWSZvdatU6jpxkZE=
+    properties :
+     x : 113
+     y : 385
+     width : 100
+     height : 32
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAAAF78BLd9EUMtXm48xQex5ftSfmUL6LH9cFtK/yDNHJ2SdSECRlnv1tNgVjqqCOA+RFSOhopr5ni5+mxSY/Af1V3CApVFAZOQuhAxftHWtnu2qQ6cgJHGNikSGiHSbCcmFwiIwapV44cGZI+aI=
+        code : |1+
+         
+         sNomFichier est une chaine 		// Chemin de la vidéo
+         
+         SI gbCaptureEnCours = Vrai ALORS
+         	Info("Un enregistrement est en cours")
+         	RETOUR
+         FIN
+         
+         // Sélection du fichier contenant la vidéo
+         sNomFichier= fSélecteur("", "", "Ouvrir une vidéo", "Vidéo (*.avi)"+TAB+"*.avi"+RC+"Tous fichiers (*.*)"+TAB+"*.*", "avi", fselOuvre+fSelExiste)
+         
+         // Vérification de la sélection de l'utilisateur
+         si sNomFichier="" alors retour
+         
+         // Mise en place des champs
+         CAM_VIDEO..visible=faux 				//champ de la caméra
+         GRPBTNCAMERA..visible=faux 				//boutons d'enregistrement de la caméra
+         MM_VISUALISATION..Visible = Vrai 		//champ de visualisation
+         BTN_ARRETER..visible=vrai 				//bouton pour arrêter
+         GRPBTNVISU..visible=faux				//boutons de visualisation des séquences vidés ou captures
+         
+         // Ouverture de l'animation
+         MM_VISUALISATION..Visible = Vrai
+         SI MultimédiaJoue(MM_VISUALISATION,sNomFichier) = Faux alors
+         	erreur("Erreur de lecture",erreurinfo(errMessage))
+         FIN
+         
+         // On attend la fin de la vidéo
+         tantque MultimédiaEtat(MM_VISUALISATION)=MultimédiaEtatJoue
+         	multitache(-5)
+         fin
+         
+         // Libération du lecteur multimédia
+         MultimédiaFerme(MM_VISUALISATION)
+         
+         GRPBTNCAMERA..visible=vrai //boutons d'enregistrement de la caméra
+         MM_VISUALISATION..Visible = Faux//champ de visualisation
+         CAM_VIDEO..visible=vrai//champ de la caméra
+         GRPBTNVISU..visible=vrai //boutons de visualisation des séquences vidés ou captures
+         BTN_ARRETER..visible=faux //bouton pour arrêter
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_ARRETER
+    identifier : 0x2dcce46c4fc993d6
+    internal_properties : CAAAAAgAAABiFPVJ7JjqYYyoSLN/TAlOdeliO8CzZNJos79hzbL3CgWSpa+EdQTYpQur+v+U4f7GDE04rMQeWQX+QOMhJrrU1foFJKvnvAzAKimL4hXfPAnzso90aC5l3YzEYl6Tqtzagn5xarF6FFzjcLMMTm5HVrm4e5XOnmMObqFScorWh4hS+YBbgvcVVMNeWU4mwCXcTdrs7ujWqKeL8uib8tgVG7tsd+o1OXBJHgJoJrBE09/2WT2JagPuUX0H73MAjRNF+gbdfSYtIY3Xt6rQi7j0ej0Qeo9L48L05umg8j6yoepNOp5lMC4C+slavUmadpsILsHsltpE28WTmpWNElMDbLMNZu6MEcxipo37Eism0kfAoQGQBCHLTl5dZpi4DALSKPPuLrqdWdbPm2p3SXtOCNxEpip7Td+OXApFlqCOpXR707w/WhqjLpVXdoVIhOna4HuzwG0nhuZgiaG0mMVjC8W7J1TFRYywXj5/lpqAs+L1kWEeVQS73NwKma0GXKQAT/S44iGGLM7Y4HBtDYJlri/HhNza5Bzv9/HiGS3XqPR8/WunZulJwUdeZX1hvmswtJVHD1yruPq2CdmcP1MADzr2lZKuT/U7fr07W9P/cJMn3EQVPWR/jh5EjIvrrzXvlHg9p2mZOPKgwPezdKbKxWjQSvTPjrqwxOVb0/sN9piBD9n+juvl40pkzVGnHo/hkVI3/2DkTgi7+g8JXaXs3RReVwOOPUbDnc3WcipgUs4WVXi0FnrrCgZI5KoWaFtjA6hRC3bF9RzY2rEZ6Gwd7gxnzPWPSR6vBnHOHxV8bfqHAS17ro3v5lr22LQUQqfQzQWs694ypQR8VtpTXmT/z6O4lvyuvDdTda+HBFlYPrIh3VM7vaOXCLQm+us1yzo93unSfZkrkZAjemaI3dctB7vBhHWbaMyZ6cllG0hO7ZvdpETtM7JZtKPyY/BGM4v1lfC5xbuXbrP3NS1joo56Y4jkJsA6N3EydV/zy2qlhJvQs+KjcSnxIZhcN2qD9MGJygf+1oQ9z1NF7LDp2rJtdTfoFY0ub+r4wCF5QTl9wBbQ+6UcytER3jc3zBCW3/fAlsPgZ3xi7/SDcEf32TcbZvXI6BRjr3nx6A7LAw28igwhLr7Yx5Mf4XdTM9UZwZFx8Q==
+    properties :
+     x : 234
+     y : 54
+     width : 160
+     height : 32
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         si BTN_VOIRPHOTO..visible=Vrai alors
+         	GRPBTNCAMERA..visible=vrai 	//boutons d'enregistrement de la caméra
+         	IMG_VISUALISATION..visible=faux	//champ de visualisation	
+         	CAM_VIDEO..visible=vrai		//champ de la caméra
+         	GRPBTNVISU..visible=vrai	//boutons de visualisation des séquences vidés ou captures
+         	BTN_ARRETER..visible=faux 		//bouton pour arrêter
+         sinon
+         	MultimédiaFerme(MM_VISUALISATION)
+         	MM_VISUALISATION..Visible = Faux //champ de visualisation	
+         fin
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_VISUALISATION
+    identifier : 0x2dcce46c4fca93d6
+    internal_properties : CAAAAAgAAAAqP+2Ctvivu7uIJ0ZUtvUY77UngKvp7mpuZ02IcwplvSvP/1feNrwLuecyTc9kqM1xTVp470zkrGgZMIN23V6IT8I9ALXoAn4OU4gJeOBojhKHjeHWLG6UnZGQGjX0PAJ1wIrxbMylG/dCpV8vCmQdVZfUoIkfTzWkzK1kMaVeu8F1xzpH4KK34RvGM1eJ+jQfDep+0F1GVWQmJagiyN+cJ/Bw73nzBw5fADo9umoL0FA51FQf/fOQ7RreeVkBImJqcE6y+qBcOacbwEpXEiCHU1iif7J7SRShl83H2tmGPY/LKXWNb28vFwr0suOyh2VSbLgmh15rMOKWG9wsCb5Kj+X9egeuCXjN0U7PC6+qZwfJulryqmJ+nBkC8Sdy+t7dPioyD2xbvLsRgcZCBNIDOCR/ByIO7b/YkD8v3XKri8qGqO7bxnX/eNXrinjgh68RvtPdX+U1O7YP1I737oAAn1rb4zLf/VeZCVfG71JquGVbC+eM14UEGhW+SnzjlN24K14zh/Bj38+qO3DhPB89eatgATy62URCFJ3IxooMEFoZ9RVtCGBRt143lTg1nVLMQ5wy3rVA4cqo1kvSnqNPhikRn1k6A+JgKXVQTYfIRn14S6ksfbL9r/yqKO7kCrgYyRdmyrOEBAxBA5Xzu9wclXeD+uzcZTjP0aMmWL9LgPPAZriM9e/hMjH32295y/xkXHoJix/JUQrU3T8nrjFi0XuyuyKZ82NOnc5d2U1JNNoHS8UvF/is/UwYaFIq0MxvDe8doxK59ghvwNMkxRGlL9CVZ1Hsf1XiJfh3yCoqbPleGbyqqzaPUzR4BjSZrdlGuqJAq4UYWA3Uch4wF+8PimauPiRmuwNm7LssQPRR4BqJzjtmjI6wseu/sOC0NaayHy1jLOViNigLiCAT7p43uwpy67yRlhAvnPEkoRY=
+    properties :
+     x : 6
+     y : 92
+     width : 418
+     height : 240
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : INT_SansNom1
+    identifier : 0x2370d5aa1960f646
+    internal_properties : CAAAAAgAAAA6wzkGDVwOOR/dGjfBwk2AByGbRzx6zSkqKeRfrKbSpW3UVBng3EpT7txaLGFl3FbD4DtgL+WEYd6RNxT2gFvnEDMB5pEvVZtrgOsKQdkwaVQzAVzfOu86K0OMycvjf9RxGWjEu/8msGj3yC6V0lTYdek0wdM/zjJgkPRIN75pZsHt+XFUkx0Tpm8qVP5tIfHlMXIKSl8JzK0X5/t3iqejFLVPcfr3EASx0kSAGpLxhVBjpAIJVH85c95XN4yx3NuEFsj8BfvB9vANeHzq1L4mHXFbcnnosuKkwHXjIo61o81zzXMj24NKhc9ppScOW31UsGkxSYMQz39gP1Go1pg96D6tGLCiBnlM83860HwXMERo2BwTd318d3QL1heDriRUSjP1Z9Bi1X20/RJFAOM76Cp0U/Xdbf+3IudYukEpMo8wh6NwunxracWRtAQ+fkRj0uGpdhI/W8mtJKBBCgz8a5fkR+J5CZ7ACuGSIDEYhCHgn+3lV5Zk/UD8LHfeT05GsICHny/ylpS+TiNpEteT0+DvUu9viLf0Q6H9qK7zm+K89zWqQC6L+kTU2AjFmN7myF1DIzQ9lH3+xq9gzuUriyQ5b3y5MAxk0yUXXrBxGHNteVpHVEr8imJ51FPloocUsEwQOsEC+IqFOnyBJ0BUeVI7xFLgTcJBIbALSvD7bqHc318n4bnXHdFcMvXh9IhMojVA3fGnkMN4ZMML5DDXq01nhWLTyaDJLyl6QH3U9BMugPqpkt6BXEEC05ueWRMv6DB9yiyPiZyhuoIlJWbJ3TeCS7YFoKDUHDtc2saPdqVyI2rTDg9vLG36cdQAKrCLrpmTfoK7A7WZ643kU1kwPKqcZrQO0XWVYu7/kGITQg3N/ZaKR181mvljFWixzpAOSsAMcB31FjNwF53z8k3fxHwPUoqWwzvkCbWv6E3LBEVwufDyLCCddz7A098ULhpEJnoCoudDnsauljQh63u96REAUhMINBBWlLuUiHY/H+/Ev7S0cNQY1+RRKnturLq0r1/zM8p2bDGu3pqTQ2declzLOd7OnFy38ft2eb2wG11QOBkId3TKk2hfS/AnTjGKyZQp7b+f7wgNbPfYYwQJIU/DL7Mn8aJ/jY07CtJWDDvDX70+ZhxX6pfk9Z2JVToS0Eb3NXqabQLjl+0vt+i1LU5wZRrw/onQ2QqH90qy1Q/1jzVIW9PFaJCzaBkrkMdODNUwDN2PlbYPJK5qBrfcbt9GLUZ7lO4nyaJI/cbkOzV+3mgnmopKw0zfFnw79CGZ3eH0p0Fv+9wDKw==
+    properties :
+     x : 6
+     y : 425
+     width : 420
+     height : 100
+    options :
+     -
+       internal_properties : CAAAAAgAAACNJVNAiUj5mHajD0qqkhxZBHYa87QgKR1ysouhifab8c1s1Wamly8jxPs18Nb0nkyxkP9u8Z0kqFX/D4Ex5pBI7a98x7XNt7YGDSKyvhfVMimNvJKVw1QXFPUZLkX4uJEMB68O1s3JHVGHHcTlIO27kLZ0EUc9i1amF4IYnvEl6VDpriJLl4MDdek6L2C/G6VFXAsW0v3b9KUel98sel5GSWgA9w==
+    type : 5
+    controls : []
+    code_elements :
+     type_code : 5
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAABwf1TI7X0+WEP+867S9yx/W0CBfRQFhK5ZAzejVc+2T3foPDlNDReP7rob+bXirxTXgG+/I811dH/Q4u1fIAN76NO65yoe85CF6QIghUCpXb4FlL113WWrZ33vvjxvrmHSmctf5g20y6BJ4Q==
+        code : |1-
+         
+         INIEcrit("Parametres","Serveur",INT_SansNom1[1],FichierINI)
+         ChargementConfiguration(Vrai)
+        type : 17
+  -
+    name : IconiserLancement
+    identifier : 0x2370d60d197179f6
+    internal_properties : CAAAAAgAAACEi3oGVbUphK5Q/mqsy0d+NJN5EFLfVJeb1eIMgnnnI+WT33P/azLpc/1a/7gumDknXV3czA33HXNDrGPbSx6Hm2Vl0PxurVC8WUjiu8lNtEkH347JDT4jFGzkJju75bT1uPcJ/ITVWALhSYcHWOvynUPI1nDT5IeN/kNl3WH8ocjN/Yxlwk49Eig9pPgrlYYLi7xDTPhl1sQPCD++L7/C31MHxGIMnGlrfUF0l8EPuoqNLwxpKR7yp1/3Jc0HrQEQlYpKqs/AmMDSrQJ8tpJs0SrZc0ZK7D+eHTan3JtldBE0VYWn3pHUofqz95fQFt8a3lBI5Ui6OyO0gDQashyBEqq9g5kdFs1kPnXDjYX22uOCkI2m7gJKqZ429Yo822/K1m2KHfPTyv3h2+kRl+Qa1huY465AGlGVeArM25UR/zkFefHIl84KOieauXims4CY8c4c/IJl8aial2F6qoVWqWahkYH4Py4YZClUVp4wqTRqV2kvrAWVIgrLn03LTODjVjuOvknazbJF9scZEJBMd+TL0vpLz6uZLBbRq6Ht/1gLL21llmgBZTjGYjs6xmE+lxOp+C+yKAip4Ld/fHCC7G29warZLjLEH5wqN9zce2KSjGp0F5mP4yzt9HiyAvzKEe0ZMPS6j53EW9+KD+OFyV7zxTVtYLCiIx3b7cKvB9uGo1bpJZYmYrgAvs7Ee83CF5nHjZd03i1nVN4jDUYCxDtBq1N97U+hNCuOk4tnpUvYFp51qqHzsQkuLmQINHEXsg0VBW+mOqCrzWpHnh7rAtf8ZOw2E4CClftLNaxmT/v/DbafsiWiYqMJYwQ9sihrQy66nWipD1yYUhLqeGe4hmueN0dO46AftRI7YLalQN65tI5SookXOAnREuw4cTbHggon5wYFcnwXprxXmgybSy8QrHH0cMj8FdEntzt2bVlGnURI5ljXNtezK7pwcJ3FkWvb364h7K+VoMMLHS/HNkQlgGr/1Fn3bLoO4pSX4gPPkFZIGt3FG9NrYvoTbGMtLiQI1wYozSPZt+LGjVjGeRPLQ5k9ZK4WzJrTgCQkiWBDT5PvfDim+IgIc5IwfM90HrT8M1g=
+    properties :
+     x : 204
+     y : 492
+     width : 132
+     height : 23
+    options :
+     -
+       internal_properties : CAAAAAgAAABkusix6YZSofFXTCh2srH9M2IwAV+XQw/xqJehd3jHEJ/c9pigEVibbCHaZUR54olW4f4ssWudu8AJevCtYW3i3IZHKPIoxBKzdtsFdq4dez6fqnOvhASkoYc7hz03IV4Vu4alEbI6TuVIdbga5hhrSDO/BBoYSzYA2uYYzq6lgVI7mMHMb1SmTA==
+    type : 5
+    controls : []
+    code_elements :
+     type_code : 5
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAABwf1TI7X0+WEP+867S9yx/W0CBfRQFhK5ZAzejVc+2T3foPDlNDReP7rob+bXirxTXgG+/I811dH/Q4u1fIAN76NO65yoe85CF6QIghUCpXb4FlL113WWrZ33vvjxvrmHSmctf5g20y6BJ4Q==
+        code : |1-
+         
+         IniEcrit("Parametres", "Iconiser", moimeme, FichierINI)
+        type : 17
+  -
+    name : Frequence
+    identifier : 0x2370d60d197479f6
+    internal_properties : CAAAAAgAAADy+wY71x/LtG8mgdsjqhxS9I0DfRBoI5pzYizM0nza0ZnjoTvJRB3Rwq5Ru+PAUwdVo4mMaNUKXxks9SQHdQi1y9rrvmrioIztCOlZaijyMChpcQPmdsnaTShIHnsyYZVFpqMgt8rxYBmNuTPOopQPNHgVLjfO3Ki5YKI0Q1JeO2Z6SVMQjq1Nex4jm55yMGrGbEyJcepuoIbMfgIppK8rJdfAn6WN1utS1h7sea2ZgYTI8M2lfgqVMXiaVaDsTtIW2f7GxTCTT/g8nbPqAvomrbNS2ZKjHlWtfdG7o2dlgmTtX9caAJCgXjf2Q603K1cq1Pgo9yEXEgtzSDLRZBs31O01fqOTRtkbbYWr1D6JNEFOgbznU2zmRnhLs1tBQlwzNXRJ4FcSeNPFTC3XzBoWxonfrRsZRtop5G2zlBZpA6LGpcPVuS39vsWko4GTB+nGufi5HuH2EYiR53DD45FrMh2L+7X8Kig6JYS+YsPY1pgwznzwFo40zxrubyWAhc681NDOra7z7yrVe+GvGxxMmqkh7t76vDdmIPa6X+MQAigU0/xjSf4781EQ+vc3PEo0dZFTa53d9pDoUTcqD1k9KAXfm0jkRVjR09TFSIxP7NDAq0LUcUJCQ9prrfDgW5rO9eKP2LlQH9EbddFEBFKiGVoozuF32waxbdkwXTeLPOpagQ8wFNUEKbvqHot0zt1mwoAZDW9FMeAYTMwDj55itK5Y2qwmrdGR8VGioFrw/ulzLWJpHJyYbFz04tzsvFB4tBYwAdRXEW/5Ewcg1/TodaiPbuhpYqZwB3j1xaw9DRIgwEXe8H8X2VkSvyXaSX4DydI8PJiq4kIHRr4ggY059EiPYXUvpY5TCQ/bTHSvumM4UAYIakpbPbkErF7B5zQKs/JanZ9BhDDX3zIqxIVtU7evsngJFCO18AZPHhdaCd3u85VD9F6ez4gKPleYhxMCtNBQGNj9Gzt3ZtVoa6Y3v8ZQORT3S3j0xoKh6M38QOrZfp+eWggsu2HTrOzT/ePrAsvZuN4tAZOQhOHHh7WRJdbNRnEQG7trCcYbcffJq6ON4CCKJ5LNFUy2VBL6zDD9GjrvI3UIio8jFmoAvrILao52K2sjJPYxYFdBmE7SKkDJ4Mg2ebPjCRX7klL8D7Jfz3Y9lUE8ZRW+PgVLZJKaL0myYbscE3J2pu2Dp6njb1h4+BVur9MkLyyQpu1+h8Ou5/qNkJl8z9pWLB6tkPQr3VkUJzwxLk7C6jTEaXccx00KaqnTX1ipFPtytGE5i/TgShYUDEUU9/vTf03Qyk8cYjHdz6IIWKPlcPudxToiMiiUCqeoNGbq3qvHO6bA9iMz0scGmMg7I2f8Zv3P/C7f4mwk0GUrWM6UYhiwQ+7wlp/jgHDCgErbtlvtQO37eSzV3K+qGFKzj6VD7YhbJl/Oh3KoNGxtOg0/fP1w4UZL/mEoxBA3H5ta
+    properties :
+     x : 41
+     y : 493
+     width : 155
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        internal_properties : CAAAAAgAAABwf1TI7X0+WEP+867S9yx/W0CBfRQFhK5ZAzejVc+2T3foPDlNDReP7rob+bXirxTXgG+/I811dH/Q4u1fIAN76NO65yoe85CF6QIghUCpXb4FlL113WWrZ33vvjxvrmHSmctf5g20y6BJ4Q==
+        code : |1-
+         
+         IniEcrit("Parametres", "Frequence", numeriqueverschaine(moimeme), FichierINI)
+        type : 17
+  -
+    name : NomImage
+    identifier : 0x2370d60d19767a05
+    internal_properties : CAAAAAgAAAA6ajKKp9L5V6MCXdONreaRRivd4Mw2QlalByNHJ1Imjb3RgNKGMAD4ijr5pgM0tHYRrPIxzBV45NkBwPY1h7yEmBcC+rf7YUUP7LDxc+2wZo9yz4SmDci9i/0NAsLRnxefLcDUBG0CzSfsVcHQuElsja68wuTheOVG4YQ1VYJE1OnSyix1I0FfvXRk/WCgLneQhkElP/zZP6CfG9y847e53xWNfGIVjZJmidKV7kjYXBjg2dlg72BqUBPcGLOCMgEEDVnkWwkY6OoFeWV7wVDtnsjxiayy6MdPqu41JyRxTTDrUttNM4cnT6x2W5tBNfJS/eGL7vS0l1AZP+t0uqAKyk1YD09SNuNAbATcImRhPtRyy0lBS6WpaKf7SQckPVq6cWBD5UPlx8geXDLCF3D68Z7ZgLkOJ1LaQVdAj/iuMqIoK4uS85poOlNuNi1/dhXR/mklfa4wyug8QD5mvEZ5NKlCVvEPaxG3sRe3Sopp3bMm8M4bulH+3A0vLNYoimkLzRQsgELmIXbaK1segGTb8YnUwRaga8S1DKGD0huWPvjqW515Xr53WZRNnd+b4dL5JgayFtxQnYmaoF1/NixNOIaMz8s2xNlGUmLxEZuK1D7bzQhI0HKZ00CQoRQFY0eBaF5T7JAI28Av70XnG7ZQMwXkDgf7jqma+vaTdBRZgx+w6ekX0rukedQ7TBmb8YdrqsAgTRyLztkYQOgYYxqZffS0r2v+z3WqSJYC3gwicE6Xv5Db7Gme/8HAaha2gr7ajSW/yqx3gdlRQ7GNPTSFaOe5jA1MYWunWNBozCw4kjyn2FJHE/6iWRL30gKHpY/Wky4jL3gYNuyea9rqaPKtlcg0Zeej/iXgsYhILVIKeRM0aFAjvVP0KipbzK5fBYSNQ1ZCds3jlT64Xii+IQZa0T3i2dGOzgOjObN0kbTZHwAO3+EADxBLtO7CkEw0HYN7eDX2vQ3ijbsc6y7E93FCH38KgjN+/7FPj5VN+pNnBJ75CqC/m0JPqihv17dxML5PBy0goGd7HYpombraMNa6O2zzkrUEeFeRlXnARsMCYukeIrBUP6BQmdgesnir4Q2wvRHlr6IxqbRSdSNY1Vj7F3/T+10VeXKpKaR/FoDv6MPQ2PvsqO7nBMySyTNXuL7FANaRP9bH+N3mvrgUXcnVLNO3rnKVWM8Byip/Dc4mmyhpCJpm4t46jLE+dQLek5SnZI1vot6oAHOC4pkvPgjsTViJZzMe6NvJMhcaYRvKIA8LcMKl5LJ8a21PLOtwAi9/VaEc+wbFGPGsWrvUeLK5wcusG6hmDdux2qYhu4XfuMgvwnKVFTr6zvzmEVc+vahLwEv7AKGo46DCzRCtpzWF8UwAv8xlCJbVLwMOPzv7xs17zdHIcmNX2k6ZLx88a4y7qNxarzMVF7YHtsoEv7XgA3sTLlxmoQ==
+    properties :
+     x : 41
+     y : 465
+     width : 343
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        internal_properties : CAAAAAgAAABwf1TI7X0+WEP+867S9yx/W0CBfRQFhK5ZAzejVc+2T3foPDlNDReP7rob+bXirxTXgG+/I811dH/Q4u1fIAN76NO65yoe85CF6QIghUCpXb4FlL113WWrZ33vvjxvrmHSmctf5g20y6BJ4Q==
+        code : |1-
+         
+         IniEcrit("Parametres", "Image", moimeme, FichierINI)
+        type : 17
+  -
+    name : SelectionImage
+    identifier : 0x2370d60d19787a05
+    internal_properties : CAAAAAgAAAB9M7cSQuuSbyBJ9lSjpIAGgxdrNTUOJy4LVpJNnH9ybUe7b5yewhkGRViSnrp8dGHNR/XNfSfE/6StMHLGbhvMzBxFe+q44Dd6GE4GxRJkj8Aou2hW7YPbAsC3vczpMPae96c9yKD4/xFy0e0s18aU+9j1c9ymAjGM1H0G8vcbQa87NXpNKePJ7nvU3C2odkdku9UzvUkgkAUFj17FSMNymHKGpgpFV9JWkCh0MdcWw7T3udZtCJhc4jF1mp8w3u3POSfTDO39py7Tb4GzCctm4fRyXwMRR/W4b+kRjJ75XFi+96cUa+ae3vlW3cjWlD5BA0f5O/mf6lnC/vL7a487PVgzbDPVqhggtswtnJ5AXQknEz2TpFPBPR5gXRxeXbNnrmar9cmfLXt/MHq7NkBh9qemr8UeJxZjMaJepPb04gsdM+KXGTpfwmEGUXBl9191tl1SfZpGIc5dtW+NYeiHzYoUZ+t63xnTYDuPXbodNxSeQEj3wDL1poMCEqSPWPSws+SLX/6hDNCWaIO+PLxrszrtvKh6DivY4x1sozAmfgCJBwHvRAbunNAqdJa/l3iOfeZMj7UOfgTCtjQTuh2Zo5yPkro2pXFoqSszN5HQ1RSz/r9IR5Rm8zSgauvca49BVUayQBhRXGLFv0RtUGQoAwtmpn7V+kk/rMIw8K8AAYpmS99oUr1qx1Y6Cn45YivPFRTy8C6piWqlxdmOpOWq9hndAFpXZrbuvDvJ/rnHRtkMF8eh84CWYdPFm4+OyjpNcvgeqIaBTY8ktrp7PkX2xyP4w1M5cNPwokBs2qQSlBz1LHv4bDNc0KECCyTlMY4UTuHKBE7C0KBdfDXkaee7QkdI0nQVPNZZpPAa3PWJW2I2PHvFnP3uQ0aaKrvb/bK4J7+HA1bfeqiUWIwuq3IvP3sSl02gPxt6vw9zTJKKSaA3CjxsNvqCkr6/c4T7+0CtFLRgPxrMXfzInLUA4/gKGmsnskSE9ZxNnuG2KTK0S1vlF7J3IH7grtxYSFUQni5EHvAcUHCRoOGCH5TWwQ==
+    properties :
+     x : 390
+     y : 464
+     width : 24
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAABpS3y3j21SlhFq56gMB+a/0cuOjAb3Z4tJ8OtGaPWpabt2+LjlAlUhkrlvdqySazxhXPh0BhrpDZ3E59hVG/dbMhrLHn4jSw2nGcEPM/XZKXiSa0KH5v3896/07xT0RLfGUkY8e16oLCK0VQ4=
+        code : |1-
+         NomFichier est une chaine
+         
+         NomFichier=fSélecteur(fExtraitChemin(NomImage,fDisque+fRépertoire), fExtraitChemin(NomImage,fFichier+fExtension), <§$0000§>, "JPEG Format (*.JPG)"+TAB+"*.JPG", "JPG", fSelCrée)
+         si NomFichier<>"" alors
+         	NomImage=NomFichier
+         	IniEcrit("Parametres", "Image", NomImage, FichierINI)
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_DIODE1
+    identifier : 0x23737a4500f5435b
+    internal_properties : CAAAAAgAAACh2UcIuVJxUm538HcXkkKPIh71+qdUAglB+/95xErxEYx3vZAKGgXNX/NRp+6xPILSeuie0LjhxsQ1WL490rq03CJbstFX4pPBQZz3HUW0RJLARv5iTva6HRwlvb9y/GT7Rn88K5MpDx9OrVpM+fd0d8GJrhiKRgATkEZ0zpHoPj92dQqb4Th+1iprIvF1TI4FX7FasypMu77VDyZAB8w3jyJehTfGAjBtkJ106xDgXlMDWuReEbDWYGeqTgJI5UrQYMeBXOmVt9N7fo9+wdry5WWrZIjus3mSk4G3Pmb4um8wmJT5/4SvLzmUB6llGTL28Sh7fDZ4A4p5c786M8KS3UyEjbfeqIgnhsJR4oHDT+P+OK+RB2YJMEfdLQiQ8zQFidCgT36gtLnk9G+8G1gkMTK/WbJIYSWpIYlKYVhyKxzDpA/03FNmC8tHDWt1p432frY1eqj40ll5FhlT6Jyxw4vcuT6daAuChMVVoFm83o5sitjXVVNB8gR/dQsKNNz/V3tMQ+Zi+jGJpCziAuXgYYKYOMYHl/LHz94kHptc4MXUAtYbRJiGzpBQRgI5vgdb3cxJAMPEiR7b7Xq0hIYXUpUgf70+gvc2qUg6fmws12GEelR+U9yJbtkqKHY54LSdNPPgF25uiMMy7fS9aWQTMGuUgvA+fqo42CdtNzi9ZRG9GN3omqG4Vq9XuRXwDe5YNfzsewMp0Gixo1w1fl25Ea8BbvWRNvB2sCD2cRrMoDccviIpe6bTI7IQw4/3ix+67EouI+w+61mj0cfcMn6HljNj94Qptz/W2UvxmQZgexGWn3iKI4XUIzcp9YcW7AVpTBdpaRg+d/QcM0Z08kncfSy3gH43t+ubpf3lGOU1a2tkeyytDBzBaPXdv9HjLKJAynYwW5T0YiYBPYUScXpNtUmsfcQK86BhUkR1UwpkF1KP5hmIKDKi1Ze5RLNyr6bKq0huCx9nv6fdQr4a
+    properties :
+     x : 444
+     y : 60
+     width : 24
+     height : 24
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : MM_VISUALISATION
+    identifier : 0x23a942ec0113e115
+    internal_properties : CAAAAAgAAAAuy2d18K2HpQ0GUwb+QXGVaT4ST1Jtcq+qb6I4d94pn7xTzoGH1FyGGK6DFGXHsGHGbzXlg4qzDVP7CysSLMM3bcUDZ7VnJ6bg0H9x8MVFezNbdlEYrUnSkpgh0MgA/KbcNY/WUDD/NH4HQWCmq/8oS5VUGwRwXyu5YMbXuYHVlvJ2Tglvy3OI98eZ3rIbBnPFdEPKBOG9kR58yIFLWSv0ZDlQHuZSbAWvSMyPdDc7uFAkNLBISCdtH7JJK8AyjBbogfV4FFBtKNDA3sBZ2siFOkC9EoqKGsZhwD/LHUC4O3X3NQAazgFCoKNH6uR4Ubl4YR6EYMUWr7HYWRdQSNTOgop8lG/ksqbZzeejEQk71TbwbY9/3+dm
+    properties :
+     x : 6
+     y : 92
+     width : 418
+     height : 240
+    type : 39
+    code_elements :
+     type_code : 97
+     p_codes :
+      -
+        type : 164
+        enabled : false
+      -
+        type : 163
+        enabled : false
+  -
+    name : BTN_REDUIRE
+    identifier : 0x246a33a300e799fc
+    internal_properties : CAAAAAgAAADJuFlKo9MnlS7zW7s9Yfx5QRRV3ZrihZdwqa8RMjFCBpqpz+r0WkH+l9g9BDQ/UIY9OyC0R2fUAa7dag5himRZUc2Hsdv9LentyeSYiRSE0gUfOW2jQuwxh09TJt5xjFmP1wZhLRzN8FRS2tUSjnUvb6+3uuWORHHVcID9U0AOs6DuuH4FX3l9ngjEZzrJK2zG7/MtKNMdEl64aRMiac5QxOnBm4EjnsNzSxE8dq2OipzknkP9XTNq0KJbRcvcZUVwObq/ZyX+wBRXt6WzjEK91Cpg7h8LS/KQFolqWvK6PFMYQEPEOqyFKI3Vu1JoRGktR/RExLqSveQstQ2fpcoEtVC3w2QV4KvaHTYxQwmoZeTqG3a4gq1ws0VbLHeDHsyiB0pJAPfb6t1Vr5lW0AiQu8F+ODz4ioa49+dVCbY+NvfZrrCs8eqh8eBoT77GGuX+WY5NR2GI6AAcaiLFCt08IcdWc/kjISR/Yn62QceFrAMJfvciTTzqAyokg9m2tz2F6fHewshnAoN3gifCCcUoBZvhhbeBb1NS1j8ELh7JQwAi8K/2Z+emjKSsj6GY2ZygVG00gts3bsqzhUNet5XvH61wv62/hcZ9DP4NKERY6j0a/FSPcSzPGXAZDhfo1HgHl3JUXbmdBnercx5zzTimF9Q7E/glAIf8LRCRhSUmCDRpczb2MMH8JJfl9jgeSqNL9J2fhoZmhcnLivp4LfsXpk9aYZIlbPZLYz5BwlyToL2HCJsWn5ZzYGl00J4j2P4eWqfg16Dauu9tTW5n2Rg2/gqlaC69XRBYNyUyBf6/PDDrwVriwlRa2+mdmM4x1lqA6o3s+FnRDuPa59KGHfehWDyZr5DRI9J4cynmt+WwihkG6FfGML8pn39w65lW8+xmwqP0oXeIska1A1PVxVcpF4TbG8S29CvMD/UPL204Et6GFvfWPD7sw1PGudl2MOxJ9nzClHFAbvA1Bow7irqGtLugCuuiWJkiggw1XkCnNSlS7OFeiUFHd3iHcrFZ099wdkk3OreRJMOh4Syv9UExtmoyZ7VrIFAEiSinxCwG1ks=
+    properties :
+     x : 324
+     y : 387
+     width : 100
+     height : 32
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAABmYRKMc4I1aBOeE5aCh6RfK5j5pXxlHCah+0/TnQcG1x+YvDn9BQePHkrLUbXiN5RneBc3y4FBODs0tjEbZL9X3Eceq15SP9QxbcZEkVSVeaI5aKFpUbH/88EzstjDmi1WHb+zQ72MldY/1w==
+        code : |1+
+         SysIconeAjoute(fRepExe()+"\caméra.ico",MENU_SYSTEME,"WD WebCam","RestaureFenêtre")
+         FenEtat(Invisible)
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : Menu
+  identifier : 0x3d3bfa3b1e268980
+  internal_properties : CAAAAAgAAACUML7jWHktzIVrDHN7ZrQYgpHn78JmimzzwXzG7clR9awxSwiR5fAI4hbxEzciv/Qn6hWzYEKdlPEdbb4QSHqpXcgHlhfaUNWATn0NEXBYWrU0q1+VmbdlllEEiL7wE78ajOHFqltWRmmhBZFJ1kYIqD8mMKWKAoQb6xH1odbtixZYezypWM1GD3aOvsIcCulQ/0chvaCvI9Wl+MUMRZUxMb8hdaFBleEUd8DLXXqMY8B4ndfTWFn33rQNwGl7NsaHK1jJtiFsSR3M9atAXtfMWv9vziHqkwi2PuflDQ==
+  options : []
+ popup_menus :
+  -
+    name : MENU_SYSTEME
+    identifier : 0x246a346401178b6b
+    internal_properties : CAAAAAgAAADDd8/qecUG4bNAs+bNO7qMWTjm3y5iKDDhza3dZ+ONlVed6uH4DtdSYT2YG1rfJXSB+ev9xB2b/+RTCGIWNssay3aM5/Y/Mw68OHhjpOgcnNBadFH/R2SDYVo8szFSr0lDWRrouLeh+o4YRB4ILyYt+mirZkLiC1PCoewKGkRdV2F2RkOtZXYrWP4HyicFI1GLnkpx+skL0SQOnAQJB/WCCOLLIa+FzZPcL8JFwDYSgGAdXAmQLbHj0ipyCXRy7xJnv7zKmYpWCEFp+269aaDgLe1jU0gatwoe3rZgXLNZBTTZNeD8blBYC13jRiTYYm7GotKD2H6Q1ZUXpXwPtlPd4yJZsOphp/2JZ2jTat6hF0Z1RbArn2KPU8dB
+    options :
+     -
+       name : OPT_RESTAURER
+       identifier : 0x246a346401188b6b
+       internal_properties : CAAAAAgAAABx0JOkHmecIRqoxYIcvfFgjrgMF3aBwql1oXUGcy8hBmDkSrhtp7kIzOiA7GWqfx9xCh2RH7VmwYwHI2erW9ri/2T2dJf3LSzYhspti2Eh2yxSzpLCyJdOAaAAT0NAgR1PjU1MmCgp27BjCC9uAgNE88Yrlbd3ihi7CNrtM96Z77x0gtTRyyPwNuP/Af/eX7DksjxzXBhRpSZMW+oECJl+KzOGUIlGjOYYf3b/ojTBu4f+SNWHLX3iUUMd50yPUPfLTsXtSNmrDFj762qyOinl3ruJJYZGbUq/i0+5CRACKIaqLV8nfGiJ0qUzacsBd/8IBwSV6VKn9zOkN4yKGz0ymvJwm3mVNdKrXJASqEuMCK0qgkMcpFJP490Ca/Bdef1twu00w/pRgQKrp5IawdUw8S+7SVkbIX0WxBfqzCzOXvM=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            RestaureFenêtre(WM_LBUTTONDBLCLK)
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - fr-FR
+ message_bar :
+  internal_properties : CAAAAAgAAABVRgyDtgijZ+cJDNH/t0vl2RzjXVx4tJt4hYNPXDtbk6R8tzpDOb4Edt2ivyOeD0Otu+pO0sdrsQbfOBrxanoj3GNv/VHHtjmxDIGdqjh++8wyO+g4b7wpbNA7AEZWoA==
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAACvhiIr8gSQ5loUp83uTso9CuLc4dExenO6nYq0wt6wNhhy8DIKk+8xrI7GMink5ce8SLehbaZBjJVyvy60Arg=
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      gbCaptureEnCours est un booleen = faux
+      gsRepDernierCapture est une chaine		// Répertoire utilisé lors de la dernière capture
+      
+      FichierINI est une chaîne=ComplèteRep(ExeInfo(exeRépertoire))+"WebCameraServ.ini"
+      NumTimerServeur est un entier
+      
+      // Chargement de la configuration
+      ChargementConfiguration()
+   -
+     code : |1+
+      
+      Timer(DiodeClignotante,50)
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 12
+   -
+     code : |1-
+      
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+  procedures :
+   -
+     name : DiodeClignotante
+     internal_properties : CAAAAAgAAAAfNsdbVc885WLBAjOs+LZ9OEtFgkHjTuPLHZO1A3NRgs4DGZ4JcL8wokbmNzXYvSyHUzVb0GGG47itzfJzI/PU8083+xLh/4lvoGjJMw1EG/mu2yWPOW4rJwQCqX6SQQ8pK07ZUDz1eMgSXAuuWIkDOllb3R/jY/QvlJidKJmQkw==
+     procedure_id : 2147342274857833430
+     type_code : 14
+     code : |1+
+      Procédure DiodeClignotante()
+      
+      // Capture en cours ?
+      si gbCaptureEnCours alors
+      	// Rouge clignotante
+      	IMG_DIODE="rouge.png"
+      	IMG_DIODE..visible=pas IMG_DIODE..Visible
+      sinon
+      	// Verte statique
+      	IMG_DIODE="vert.png"
+      	IMG_DIODE..Visible=vrai
+      fin
+     type : 458752
+   -
+     name : ChargementConfiguration
+     internal_properties : CAAAAAgAAABdnxTKh6zzPcVIfdxUTcvX1xbSa6VokTOH2qFZ1dhikW52uS3s/0CpxuQDgVA8gl0S8iMn7c6i3Z3lNa3hf9JWJ6KPdl0Ovd3M0TYs8JbOIBi9dLcwpWzwKiGWZhA30det1tZPY+Y59/fPl3mEXnwpUHbOI7tH7LapVngcCBmoMMn8Gu8yZChHyVetYS2+++01+z35xkUxQjuSV9cA0i3vt5yWDBUZupeaVhqLInvC+1087KjJQ/E1CU7qN+7DkOspdWPa7JXtK+qSsliJA4q7fE5BAWzHhiJD8U3agqAiwQ==
+     procedure_id : 1400858984375531293
+     type_code : 14
+     code : |1-
+      // Résumé : Chargement de la configuration en mode "serveur"
+      // Syntaxe :
+      //ChargementConfiguration ( [<bModificationEnCours> est booléen])
+      //
+      // Paramètres :
+      // 	bModificationEnCours (booléen - valeur par défaut=0) : Vrai pour les modifications en cours de fonctionnement
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE ChargementConfiguration(bModificationEnCours est un booléen = Faux)
+      
+      // Arrêt du timer automatique
+      SI NumTimerServeur>0 alors FinTimerSys(NumTimerServeur)
+      
+      // Lecture du chemin de l'image dans le .INI
+      NomImage=INILit("Parametres", "Image", "",FichierINI)
+      SI NomImage="" ALORS NomImage=fRepExe()+"\Capture.jpg"
+      
+      // Lecture de la fréquence dans le .INI
+      Frequence=INILit("Parametres", "Frequence", "", FichierINI)
+      SI Frequence=0 ALORS Frequence=100
+      
+      // Lecture de l'iconisation dans le .INI
+      IconiserLancement=INILit("Parametres", "Iconiser", "", FichierINI)
+      
+      // Lecture du mode "serveur" dans le .INI
+      INT_SansNom1[1]=INILIT("Parametres","Serveur","0",FichierINI)
+      SI INT_SansNom1[1] = Vrai alors
+      	// Lancement du timer automatique
+      	NumTimerServeur=TimerSys(ActualisationServeur,Frequence)
+      FIN
+      
+      // Gestion de l'iconisation seulement au chargement
+      SI bModificationEnCours = Faux alors
+      	SI IconiserLancement ALORS Iconise()
+      FIN
+     type : 458752
+   -
+     name : ActualisationServeur
+     procedure_id : 1400861544176242448
+     type_code : 14
+     code : |1+
+      Procédure ActualisationServeur()
+      
+      dSauveImageJPEG(CAM_VIDEO,NomImage)
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x3ac82c1760fd09c7
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : Enregistrer l'image sous ...
+     index : 0
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_WEBCAM.wxt
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
